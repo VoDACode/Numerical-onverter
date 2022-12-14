@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Numerical Сonverter</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="libs/bignumber.js/bignumber.js"></script>
+    <script src="js/translateNumbers.js"></script>
+</head>
+<body>
+    <header>
+        <h1 class="logo">Numerical Сonverter</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Конвертер</a></li>
+                <li><a href="number-information.html">Інформація про число</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="column">
+            <div class="input-form">
+                <label for="input">Десяткове число:</label>
+                <input type="text" id="decimal_number">
+            </div>
+            <div class="input-form">
+                <label for="input">Розрядна сітка:</label>
+                <input type="text" id="discharge_grid">
+            </div>
+        </div>
+        <div class="column">
+            <div class="input-form">
+                <label for="input">Прямий код:</label>
+                <input type="text" id="direct_code" disabled>
+            </div>
+            <div class="input-form">
+                <label for="input">Додаткови код:</label>
+                <input type="text" id="additional_code" disabled>
+            </div>
+            <div class="input-form">
+                <label for="input">Зворотній код:</label>
+                <input type="text" id="return_code" disabled>
+            </div>
+        </div>
+    </main>
+    <footer>
+        Created by <a href="https://vodacode.space/">VoDACode</a>
+    </footer>
+    <script src="js/number-information-script.js"></script>
+</body>
+</html>

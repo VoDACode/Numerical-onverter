@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Numerical Сonverter</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="libs/bignumber.js/bignumber.js"></script>
+    <script src="js/translateNumbers.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1 class="logo">Numerical Сonverter</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Конвертер</a></li>
+                <li><a href="number-information.html">Інформація про число</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="column">
+            <div class="input-form">
+                <label for="input">Десяткова:</label>
+                <input type="text" id="decimal_number">
+            </div>
+            <div class="input-form">
+                <label for="input">Двійкова:</label>
+                <input type="text" id="binary_number">
+            </div>
+            <div class="input-form">
+                <label for="input">Шістнадцяткова:</label>
+                <input type="text" id="hexadecimal_number">
+            </div>
+            <div class="input-form">
+                <label for="input">Вісімкова:</label>
+                <input type="text" id="octal_number">
+            </div>
+        </div>
+        <div class="column">
+            <div class="input-form">
+                <label for="input">Кількість ітерацій:</label>
+                <input type="text" id="iteration_count">
+            </div>
+            <div class="input-form">
+                <label for="input">Основа:</label>
+                <input type="text" id="custom_base">
+            </div>
+            <div class="input-form">
+                <label for="input">Число:</label>
+                <input type="text" id="custom_number">
+            </div>
+        </div>
+    </main>
+    <footer>
+        Created by <a href="https://vodacode.space/">VoDACode</a>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
