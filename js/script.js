@@ -145,7 +145,7 @@ inputCustomBase.addEventListener("input", function () {
         let number = inputBinary.value || inputBinary.placeholder;
         let a = number.split('.')[0];
         let b = number.split('.')[1];
-        inputCustomNumber[prop] = translateNumber(a, customBase, 2) + (b ? "." + translateFractional(b, customBase, 2) : "");
+        inputCustomNumber[prop] = translateNumber(a, customBase, 2) + (b ? "." + translateFractional(b, customBase, 2, getItedationCount()) : "");
     }
 });
 
